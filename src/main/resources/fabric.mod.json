@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "signclick",
+  "version": "${version}",
+  "name": "SignClick",
+  "description": "Allows you to edit sign text by right-clicking on the sign.",
+  "authors": [
+    "0xJoeMama"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.joemama.signclick.SignClick"
+    ]
+  },
+  "mixins": [
+    "signclick.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.5",
+    "minecraft": "1.18.2"
+  }
+}
